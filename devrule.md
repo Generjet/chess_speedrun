@@ -1,0 +1,9 @@
+- use tailwindcss for styling
+- create user with attributes name:string, email:string, password:string, role:integer
+- must can register user, and use devise gem for authentication
+- use cancancan gem for role based authorization, use user.role as enum with values(admin,user). Admin can do everything, user can only create, edit, read inventory that owns
+- create nice green navigation bar on top of layout and make background black. Texts should be readable on black background, you can make text with white color
+- users, inventories, soldiers and authentication links should be on navigation bar
+- create 404 page with polite word and redirect to here if routing errors
+- create 'chess_soldiers' table with attributes rank:string color:string soldier_state:integer
+- Need inventory for each person. So create table 'inventory' with attributes user_id:integer(foreign key to 'user' table), chess_soldier_id:integer(foreign key to 'chess_soldiers')

@@ -21,4 +21,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ooroo zasagdah code
+
+rails new easy_notes --no-builder --no-system-test
+
